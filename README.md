@@ -1,81 +1,94 @@
-# create-yanvex-app
+# Create Yanvex App
 
-Create a Vite React app with Tailwind CSS v4, JavaScript/TypeScript choice, demo auth page, public routes, protected routes, and a branded home page.
+Create modern React applications with Vite, Tailwind CSS v4, Authentication, Protected Routes, Public Routes, and optional shadcn/ui support.
 
-## Use locally before publishing
+## Quick Start
+
+```bash
+npx create-yanvex-app@latest my-app
+```
+
+or
+
+```bash
+npm create yanvex-app@latest my-app
+```
+
+---
+
+## Features
+
+* React + Vite
+* JavaScript or TypeScript
+* Tailwind CSS v4
+* Public Routes
+* Protected Routes
+* Authentication Context
+* Home Page
+* Login Page
+* Dashboard Page
+* Optional shadcn/ui setup
+* Interactive CLI using arrow-key navigation
+
+---
+
+## Usage
+
+```bash
+npx create-yanvex-app@latest
+```
+
+The CLI will guide you through:
+
+* Project Name
+* Framework Selection
+* JavaScript / TypeScript
+* shadcn/ui Setup
+* Additional Features
+
+---
+
+## Development
+
+Clone repository:
+
+```bash
+git clone <repository-url>
+cd create-yanvex-app
+npm install
+```
+
+Test locally:
 
 ```bash
 npm link
-create-yanvex-app my-client-app --brand "Your Brand" --template ts
-cd my-client-app
-npm install
-npm run dev
-```
-
-Or interactive mode:
-
-```bash
 create-yanvex-app
 ```
 
-## CLI options
+Remove local link:
 
 ```bash
-create-yanvex-app <project-name> --brand "Brand Name" --template ts
-create-yanvex-app <project-name> --brand "Brand Name" --template js
+npm unlink -g create-yanvex-app
 ```
 
-Accepted template values:
+---
 
-- `ts` / `typescript`
-- `js` / `javascript`
-
-## Generated app includes
-
-- Vite React setup
-- Tailwind CSS v4 using `@tailwindcss/vite`
-- React Router
-- Public route: `/`
-- Auth route: `/login`
-- Protected route: `/dashboard`
-- Demo localStorage-based auth
-- Branded home page
-
-## Publish to npm
-
-First update the package name in `package.json`. Use a unique npm package name, for example:
-
-```json
-{
-  "name": "create-yourbrand-vite-app"
-}
-```
-
-Then login and publish:
+## Publishing
 
 ```bash
-npm login
-npm publish --access public
+npm version patch
+npm publish
 ```
 
-After publishing, users can run:
+---
 
-```bash
-npm create yourbrand-vite-app@latest my-app
-```
+## Requirements
 
-or:
+* Node.js 20+
+* npm 9+
 
-```bash
-npx create-yourbrand-vite-app my-app --brand "Your Brand" --template ts
-```
+---
 
-## Important naming rule
+## License
 
-For `npm create yourbrand-vite-app@latest`, the published package name must be:
-
-```text
-create-yourbrand-vite-app
-```
-
-NPM automatically maps `npm create yourbrand-vite-app` to `create-yourbrand-vite-app`.
+MIT
