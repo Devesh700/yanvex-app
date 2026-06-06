@@ -4,10 +4,20 @@
   "description": "Create a Vite React app with Tailwind CSS v4, auth page, public routes, protected routes, and a branded home page.",
   "type": "module",
   "bin": {
-    "create-yanvex-app": "./bin/create-yanvex-app.js"
+    "create-yanvex-app": "bin/create-yanvex-app.js"
   },
   "files": [
     "bin",
+    "screens",
+    "common-files",
+    "ts-files",
+    "shadcn-files",
+    "package.json",
+    "package-lock.json",
+    "args.js",
+    "types.js",
+    "components",
+    "contexts",
     "README.md",
     "LICENSE"
   ],
