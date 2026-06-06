@@ -48,40 +48,6 @@ The CLI will guide you through:
 
 ---
 
-## Development
-
-Clone repository:
-
-```bash
-git clone <repository-url>
-cd create-yanvex-starter
-npm install
-```
-
-Test locally:
-
-```bash
-npm link
-create-yanvex-starter
-```
-
-Remove local link:
-
-```bash
-npm unlink -g create-yanvex-starter
-```
-
----
-
-## Publishing
-
-```bash
-npm version patch
-npm publish
-```
-
----
-
 ## Requirements
 
 * Node.js 20+
