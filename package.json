@@ -1,6 +1,6 @@
 {
   "name": "create-yanvex-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create a Vite React app with Tailwind CSS v4, auth page, public routes, protected routes, and a branded home page.",
   "type": "module",
   "bin": {
