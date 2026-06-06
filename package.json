@@ -1,10 +1,10 @@
 {
-  "name": "create-yanvex-app",
+  "name": "create-yanvex-starter",
   "version": "1.0.3",
   "description": "Create a Vite React app with Tailwind CSS v4, auth page, public routes, protected routes, and a branded home page.",
   "type": "module",
   "bin": {
-    "create-yanvex-app": "bin/create-yanvex-app.js"
+    "create-yanvex-starter": "bin/create-yanvex-starter.js"
   },
   "files": [
     "bin",

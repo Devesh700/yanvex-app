@@ -5,13 +5,13 @@ Create modern React applications with Vite, Tailwind CSS v4, Authentication, Pro
 ## Quick Start
 
 ```bash
-npx create-yanvex-app@latest my-app
+npx create-yanvex-starter@latest my-app
 ```
 
 or
 
 ```bash
-npm create yanvex-app@latest my-app
+npm create create yanvex-starter@latest my-app
 ```
 
 ---
@@ -35,7 +35,7 @@ npm create yanvex-app@latest my-app
 ## Usage
 
 ```bash
-npx create-yanvex-app@latest
+npx create-yanvex-starter@latest
 ```
 
 The CLI will guide you through:
@@ -54,7 +54,7 @@ Clone repository:
 
 ```bash
 git clone <repository-url>
-cd create-yanvex-app
+cd create-yanvex-starter
 npm install
 ```
 
@@ -62,13 +62,13 @@ Test locally:
 
 ```bash
 npm link
-create-yanvex-app
+create-yanvex-starter
 ```
 
 Remove local link:
 
 ```bash
-npm unlink -g create-yanvex-app
+npm unlink -g create-yanvex-starter
 ```
 
 ---

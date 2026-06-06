@@ -65,7 +65,7 @@ export default defineConfig({
   'README.md': `
 # ${brandName}
 
-Generated with \`create-yanvex-app\`.
+Generated with \`create-yanvex-starter\`.
 
 ## Run locally
 
