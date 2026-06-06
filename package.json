@@ -19,7 +19,8 @@
     "components",
     "contexts",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "source-files"
   ],
   "keywords": [
     "create-vite",
