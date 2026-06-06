@@ -1,0 +1,29 @@
+import { framework } from "../args.js"
+export const tsconfig = framework === 'react' ?`
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["vite/client"],
+    "rootDir": "./src",
+    "paths": {
+        "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "references": []
+}
+` : `{}`

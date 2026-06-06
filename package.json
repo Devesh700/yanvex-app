@@ -1,0 +1,34 @@
+{
+  "name": "create-yanvex-app",
+  "version": "1.0.0",
+  "description": "Create a Vite React app with Tailwind CSS v4, auth page, public routes, protected routes, and a branded home page.",
+  "type": "module",
+  "bin": {
+    "create-yanvex-app": "./bin/create-yanvex-app.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "create-vite",
+    "vite",
+    "react",
+    "tailwindcss",
+    "tailwind-v4",
+    "starter",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.5.1"
+  }
+}
